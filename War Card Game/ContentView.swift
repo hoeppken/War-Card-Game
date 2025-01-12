@@ -32,10 +32,10 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     Image(playerCard)
-                        .padding(.trailing, 20.0)
+                        .padding(.trailing, 22.0)
                     Spacer()
                     Image(cpuCard)
-                        .padding(.leading, 20.0)
+                        .padding(.leading, 22.0)
                     Spacer()
                 }
                 .padding(40.0)
